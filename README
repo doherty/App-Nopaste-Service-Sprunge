@@ -2,7 +2,15 @@ NAME
     App::Nopaste::Service::Sprunge - Adds sprunge.us support to App::Nopaste
 
 VERSION
-    version 0.001
+    version 0.002
+
+METHODS
+  available
+    Returns whether or not WWW::Pastebin::Sprunge::Create is available so we
+    can actually paste to <http://sprunge.us>.
+
+  run
+    Run the application code to paste to <http://sprunge.us>.
 
 SEE ALSO
     WWW::Pastebin::Sprunge::Create
