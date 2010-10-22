@@ -2,13 +2,31 @@ use strict;
 use warnings;
 
 package App::Nopaste::Service::Sprunge;
-# ABSTRACT: Adds sprunge.us support to L<App::Nopaste>
+# ABSTRACT: Adds sprunge.us support to App::Nopaste
 
 use base 'App::Nopaste::Service';
 
+=head1 METHODS
+
+=head2 available
+
+Returns whether or not L<WWW::Pastebin::Sprunge::Create> is
+available so we can actually paste to L<http://sprunge.us>.
+
+=cut
+
 sub available {
-    eval 'require WWW::Pastebin::Sprunge::Create; 1'
+    eval {
+        require WWW::Pastebin::Sprunge::Create;
+        1;
+    };
 }
+
+=head2 run
+
+Run the application code to paste to L<http://sprunge.us>.
+
+=cut
 
 sub run {
     my $self = shift;
