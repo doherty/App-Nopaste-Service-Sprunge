@@ -1,8 +1,8 @@
 NAME
-    App::Nopaste::Service::Sprunge - Adds sprunge.us support to App::Nopaste
+    App::Nopaste::Service::Sprunge - adds sprunge.us support to App::Nopaste
 
 VERSION
-    version 0.002
+    version 0.003
 
 METHODS
   available
@@ -34,7 +34,7 @@ BUGS AND LIMITATIONS
     <http://github.com/doherty/App-Nopaste-Service-Sprunge/issues>.
 
 AUTHOR
-    Mike Doherty <doherty@cs.dal.ca>
+    Mike Doherty <doherty@cpan.org>
 
 COPYRIGHT AND LICENSE
     This software is Copyright (c) 2100 by Mike Doherty.
