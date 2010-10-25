@@ -2,7 +2,7 @@ use strict;
 use warnings;
 
 package App::Nopaste::Service::Sprunge;
-# ABSTRACT: Adds sprunge.us support to App::Nopaste
+# ABSTRACT: adds sprunge.us support to App::Nopaste
 
 use base 'App::Nopaste::Service';
 
