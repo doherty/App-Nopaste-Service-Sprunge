@@ -22,8 +22,8 @@ AVAILABILITY
     <http://search.cpan.org/dist/App-Nopaste-Service-Sprunge/>.
 
     The development version lives at
-    <http://github.com/doherty/App-Nopaste-Service-Sprunge> and may be
-    cloned from <git://github.com/doherty/App-Nopaste-Service-Sprunge>.
+    <http://github.com/doherty/App-Nopaste-Service-Sprunge.git> and may be
+    cloned from <git://github.com/doherty/App-Nopaste-Service-Sprunge.git>.
     Instead of sending patches, please fork this project using the standard
     git and github infrastructure.
 
