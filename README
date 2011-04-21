@@ -2,7 +2,7 @@ NAME
     App::Nopaste::Service::Sprunge - adds sprunge.us support to App::Nopaste
 
 VERSION
-    version 0.003
+    version 0.004
 
 METHODS
   available
@@ -22,16 +22,21 @@ AVAILABILITY
     <http://search.cpan.org/dist/App-Nopaste-Service-Sprunge/>.
 
     The development version lives at
-    <http://github.com/doherty/App-Nopaste-Service-Sprunge.git> and may be
+    <http://github.com/doherty/App-Nopaste-Service-Sprunge> and may be
     cloned from <git://github.com/doherty/App-Nopaste-Service-Sprunge.git>.
     Instead of sending patches, please fork this project using the standard
     git and github infrastructure.
+
+SOURCE
+    The development version is on github at
+    <http://github.com/doherty/App-Nopaste-Service-Sprunge> and may be
+    cloned from <git://github.com/doherty/App-Nopaste-Service-Sprunge.git>
 
 BUGS AND LIMITATIONS
     No bugs have been reported.
 
     Please report any bugs or feature requests through the web interface at
-    <http://github.com/doherty/App-Nopaste-Service-Sprunge/issues>.
+    <https://github.com/doherty/App-Nopaste-Service-Sprunge/issues>.
 
 AUTHOR
     Mike Doherty <doherty@cpan.org>
